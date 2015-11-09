@@ -1,6 +1,5 @@
 ### Launch server using gunicorn gunicorn, bind to all addresses
 ### gunicorn -k flask_sockets.worker --bind 0.0.0.0:8000 app:app
-$ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-python
 from flask import Flask, render_template, redirect, request, g, session, url_for, flash, jsonify
 # import config
 import json
