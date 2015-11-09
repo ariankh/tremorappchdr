@@ -1,4 +1,4 @@
-TremorTracker
+TremorTracker (modified for CHDR)
 =============
 TremorTracker is a web-based app that uses a smartphone accelerometer to record and chart tremor movement. 
 
